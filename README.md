@@ -10,6 +10,8 @@
 ## How does it work?
 
 ```go
+const dummyCommand = "dummy"
+
 type Foo struct {
     Commander command.Interface
 }

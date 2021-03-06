@@ -10,9 +10,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-const (
-	dummyCommand = "dummy"
-)
+const dummyCommand = "dummy"
 
 type Foo struct {
 	Commander command.Interface
